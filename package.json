@@ -1,6 +1,5 @@
 {
   "name": "works",
-  "homepage": "http://TsunLee.github.io/findrestaurants",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
