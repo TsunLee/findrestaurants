@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/findrestaurants/static/css/main.5d520359.chunk.css",
-    "main.js": "/findrestaurants/static/js/main.443eb01e.chunk.js",
-    "main.js.map": "/findrestaurants/static/js/main.443eb01e.chunk.js.map",
+    "main.css": "/findrestaurants/static/css/main.61b6f19f.chunk.css",
+    "main.js": "/findrestaurants/static/js/main.dd7ce3b0.chunk.js",
+    "main.js.map": "/findrestaurants/static/js/main.dd7ce3b0.chunk.js.map",
     "runtime-main.js": "/findrestaurants/static/js/runtime-main.296554ec.js",
     "runtime-main.js.map": "/findrestaurants/static/js/runtime-main.296554ec.js.map",
     "static/css/2.150d169a.chunk.css": "/findrestaurants/static/css/2.150d169a.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.a32cbd66.chunk.js.map": "/findrestaurants/static/js/2.a32cbd66.chunk.js.map",
     "index.html": "/findrestaurants/index.html",
     "static/css/2.150d169a.chunk.css.map": "/findrestaurants/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.5d520359.chunk.css.map": "/findrestaurants/static/css/main.5d520359.chunk.css.map",
+    "static/css/main.61b6f19f.chunk.css.map": "/findrestaurants/static/css/main.61b6f19f.chunk.css.map",
     "static/js/2.a32cbd66.chunk.js.LICENSE.txt": "/findrestaurants/static/js/2.a32cbd66.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/findrestaurants/static/media/hero.6e91402b.jpeg"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.296554ec.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.a32cbd66.chunk.js",
-    "static/css/main.5d520359.chunk.css",
-    "static/js/main.443eb01e.chunk.js"
+    "static/css/main.61b6f19f.chunk.css",
+    "static/js/main.dd7ce3b0.chunk.js"
   ]
 }
