@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="navbar">
-        <Link to="/" className="logo">
+        <Link to="/findrestaurants" className="logo">
           <img src={logo} />
         </Link>
         <div className="menu-icon" onClick={() => setIcons(!icons)}>
@@ -23,7 +23,7 @@ const Navbar = () => {
               className="nav-link"
               onClick={() => setIcons(!icons)}
               to={{
-                pathname: `daan`,
+                pathname: `/findrestaurants/daan`,
                 state: {
                   dist: "大安區",
                   image:
@@ -35,7 +35,7 @@ const Navbar = () => {
             </Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link onClick={() => setIcons(!icons)} href="/">
+            <Nav.Link onClick={() => setIcons(!icons)} href="/findrestaurants">
               聯絡我們
             </Nav.Link>
           </Nav.Item>
@@ -44,7 +44,7 @@ const Navbar = () => {
               className="nav-link"
               onClick={() => setIcons(!icons)}
               to={{
-                pathname: `login`,
+                pathname: `/findrestaurants/login`,
                 state: {
                   number: 0,
                 },

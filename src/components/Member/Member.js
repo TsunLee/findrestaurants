@@ -13,13 +13,13 @@ const Member = (props) => {
   const path =
     Number === 0
       ? {
-          pathname: `singup`,
+          pathname: `/findrestaurants/singup`,
           state: {
             number: 1,
           },
         }
       : {
-          pathname: `login`,
+          pathname: `/findrestaurants/login`,
           state: {
             number: 0,
           },

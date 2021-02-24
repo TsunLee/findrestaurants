@@ -17,7 +17,7 @@ const Shop = () => {
           <Col xs={12} md={5} lg={3}>
             <Link
               to={{
-                pathname: `daan`,
+                pathname: `/findrestaurants/daan`,
                 state: {
                   dist: "大安區",
                   image:
@@ -34,7 +34,7 @@ const Shop = () => {
           <Col xs={12} md={5} lg={3}>
             <Link
               to={{
-                pathname: `xinyi`,
+                pathname: `/findrestaurants/xinyi`,
                 state: {
                   dist: "信義區",
                   image:
@@ -51,7 +51,7 @@ const Shop = () => {
           <Col xs={12} md={5} lg={3}>
             <Link
               to={{
-                pathname: `zhongshan`,
+                pathname: `/findrestaurants/zhongshan`,
                 state: {
                   dist: "中山區",
                   image:
@@ -69,7 +69,7 @@ const Shop = () => {
           <Col xs={12} md={5} lg={3}>
             <Link
               to={{
-                pathname: `songshan`,
+                pathname: `/findrestaurants/songshan`,
                 state: {
                   dist: "松山區",
                   image:

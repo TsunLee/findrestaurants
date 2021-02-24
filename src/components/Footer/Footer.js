@@ -7,14 +7,14 @@ const Footer = () => {
   return (
     <div className="footer-div">
       <div className="logos">
-        <Link to="/">
+        <Link to="/findrestaurants">
           <img src={logo} />
         </Link>
       </div>
       <div className="footer-button">
         <Link
           to={{
-            pathname: `zhongshan`,
+            pathname: `/findrestaurants/zhongshan`,
             state: {
               dist: "中山區",
               image:
@@ -24,7 +24,7 @@ const Footer = () => {
         >
           <button className="one">前往體驗</button>
         </Link>
-        <Link to="question">
+        <Link to="/findrestaurants/question">
           <button className="two">常見問題</button>
         </Link>
         <button className="three">關於我們</button>

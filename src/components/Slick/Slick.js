@@ -49,7 +49,7 @@ export default class MultipleItems extends Component {
               <div className="card">
                 <Link
                   to={{
-                    pathname: `detail`,
+                    pathname: `/findrestaurants/detail`,
                     state: {
                       name: shops.name,
                       description: shops.description,

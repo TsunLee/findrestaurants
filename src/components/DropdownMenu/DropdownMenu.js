@@ -13,7 +13,7 @@ const DropdownMenu = () => {
         <Dropdown.Menu>
           <Link
             to={{
-              pathname: `daan`,
+              pathname: `/findrestaurants/daan`,
               state: {
                 dist: "大安區",
                 image:
@@ -26,7 +26,7 @@ const DropdownMenu = () => {
           </Link>
           <Link
             to={{
-              pathname: `xinyi`,
+              pathname: `/findrestaurants/xinyi`,
               state: {
                 dist: "信義區",
                 image:
@@ -39,7 +39,7 @@ const DropdownMenu = () => {
           </Link>
           <Link
             to={{
-              pathname: `zhongshan`,
+              pathname: `/findrestaurants/zhongshan`,
               state: {
                 dist: "中山區",
                 image:
@@ -52,7 +52,7 @@ const DropdownMenu = () => {
           </Link>
           <Link
             to={{
-              pathname: `songshan`,
+              pathname: `/findrestaurants/songshan`,
               state: {
                 dist: "松山區",
                 image:

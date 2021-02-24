@@ -10,7 +10,7 @@ const Detail = (props) => {
   const check = () => {
     if (props.location.state.location === "大安區") {
       setBack({
-        pathname: `daan`,
+        pathname: `/findrestaurants/daan`,
         state: {
           dist: "大安區",
           image:
@@ -19,7 +19,7 @@ const Detail = (props) => {
       });
     } else if (props.location.state.location === "信義區") {
       setBack({
-        pathname: `xinyi`,
+        pathname: `/findrestaurants/xinyi`,
         state: {
           dist: "信義區",
           image:
@@ -28,7 +28,7 @@ const Detail = (props) => {
       });
     } else if (props.location.state.location === "中山區") {
       setBack({
-        pathname: `zhongshan`,
+        pathname: `/findrestaurants/zhongshan`,
         state: {
           dist: "中山區",
           image:
@@ -37,7 +37,7 @@ const Detail = (props) => {
       });
     } else {
       setBack({
-        pathname: `songshan`,
+        pathname: `/findrestaurants/songshan`,
         state: {
           dist: "松山區",
           image:
@@ -59,7 +59,7 @@ const Detail = (props) => {
       ></div>
       <div className="detail-section">
         <div className="detail-nav">
-          <Link to="/">首頁</Link>
+          <Link to="/findrestaurants">首頁</Link>
           <span>{`>`}</span>
           <Link to={back}>{props.location.state.location}</Link>
           <span>{`>`}</span>

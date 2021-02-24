@@ -41,7 +41,7 @@ const Restaurant = (props) => {
             <Card>
               <Link
                 to={{
-                  pathname: `detail`,
+                  pathname: `/findrestaurants/detail`,
                   state: {
                     name: restaurant.name,
                     description: restaurant.description,

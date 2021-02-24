@@ -15,15 +15,15 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/question" component={Question} />
-      <Route exact path="/daan" component={Restaurant} />
-      <Route exact path="/songshan" component={Restaurant} />
-      <Route exact path="/xinyi" component={Restaurant} />
-      <Route exact path="/zhongshan" component={Restaurant} />
-      <Route exact path="/detail" component={Detail} />
-      <Route exact path="/login" component={Member} />
-      <Route exact path="/singup" component={Member} />
+      <Route exact path="/findrestaurants" component={Home} />
+      <Route exact path="/findrestaurants/question" component={Question} />
+      <Route exact path="/findrestaurants/daan" component={Restaurant} />
+      <Route exact path="/findrestaurants/songshan" component={Restaurant} />
+      <Route exact path="/findrestaurants/xinyi" component={Restaurant} />
+      <Route exact path="/findrestaurants/zhongshan" component={Restaurant} />
+      <Route exact path="/findrestaurants/detail" component={Detail} />
+      <Route exact path="/findrestaurants/login" component={Member} />
+      <Route exact path="/findrestaurants/singup" component={Member} />
       <Footer />
     </Router>
   );

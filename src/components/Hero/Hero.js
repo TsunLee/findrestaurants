@@ -9,7 +9,7 @@ const Hero = () => {
         <h1>Find restaurant? </h1>
         <Link
           to={{
-            pathname: `xinyi`,
+            pathname: `/findrestaurants/xinyi`,
             state: {
               dist: "信義區",
               image:
