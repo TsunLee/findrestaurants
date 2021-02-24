@@ -28,7 +28,7 @@ const Common = () => {
         );
       })}
       <div className="ques-button">
-        <Link to="/question">
+        <Link to="/findrestaurants/question">
           <button>了解更多</button>
         </Link>
       </div>
