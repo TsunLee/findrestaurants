@@ -1,0 +1,93 @@
+.slick-container {
+  width: 90vw;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .slick-container {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slick-container {
+    width: 70vw;
+  }
+}
+
+.slick-container h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+div.card {
+  background: white;
+  border: 1px solid #e2e0e0;
+  margin: 0 1vw;
+  border-radius: 5px;
+  height: 340px;
+}
+
+div.card a {
+  text-decoration: none;
+}
+
+div.card .card-text {
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.9rem;
+  line-height: 1.3rem;
+  font-size: 0.85rem;
+  padding: 0 0.8rem;
+  color: #5d5a58;
+}
+
+@media screen and (max-width: 420px) {
+  div.card {
+    height: 100%;
+  }
+}
+
+.card-title {
+  font-size: 1.1rem;
+  padding-left: 0.8rem;
+  margin-bottom: 0;
+  color: #353636;
+}
+
+.rating {
+  color: #ef4b4d;
+  font-size: 0.8rem;
+}
+
+.rating .seperate-line {
+  color: #6b6a6a;
+  padding: 0 0.2rem;
+  font-size: 0.9rem;
+}
+
+.rating .shop-location {
+  color: #3d3f3f;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 10px;
+}
+
+img:hover {
+  opacity: 0.9;
+}
+
+.slick-prev:before,
+.slick-next::before {
+  color: #393e46;
+  font-size: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

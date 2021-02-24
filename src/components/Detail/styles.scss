@@ -1,0 +1,137 @@
+.detail-hero {
+  background-position: center;
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-height: 600px;
+  @media screen and (max-width: 950px) {
+    height: 70vh;
+  }
+  @media screen and (max-width: 768px) {
+    height: 50vh;
+  }
+}
+
+.detail-section {
+  height: 100%;
+  padding: 3rem calc((100vw - 1100px) / 2);
+  @media screen and (max-width: 1150px) {
+    padding: 3rem calc((100vw - 900px) / 2);
+  }
+  @media screen and (max-width: 950px) {
+    padding: 3rem calc((100vw - 700px) / 2);
+  }
+  @media screen and (max-width: 768px) {
+    padding: 2rem;
+  }
+}
+
+.details {
+  color: #5d5a58;
+}
+
+.detail-nav {
+  display: flex;
+  color: #5d5a58;
+  font-weight: 600;
+  @media screen and (max-width: 768px) {
+    font-size: 0.9rem;
+  }
+  span {
+    margin: 0 1vw;
+  }
+  a {
+    color: #00adb5;
+    &:hover {
+      text-decoration: none;
+      color: #3f72af;
+    }
+  }
+}
+
+.detail-title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  @media screen and (max-width: 768px) {
+    font-size: 1.7rem;
+  }
+}
+
+.address {
+  margin-left: 1vw;
+  color: #7c7875;
+}
+
+.detail-rating {
+  color: #ef4b4d;
+  font-size: 1.1rem;
+  margin-right: 1vw;
+  @media screen and (max-width: 768px) {
+    font-size: 0.9rem;
+  }
+  svg {
+    margin-bottom: 2px;
+  }
+}
+
+.detail-line {
+  width: 20vw;
+  height: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(179, 177, 177);
+}
+
+.detail-text {
+  font-size: 0.85rem;
+  margin-top: 2rem;
+  line-height: 1.8rem;
+}
+
+.comments {
+  background: #eeeeee7c;
+  height: 100%;
+  font-size: 2rem;
+  color: #686562;
+  padding: 2rem calc((100vw - 1100px) / 2);
+  @media screen and (max-width: 1150px) {
+    padding: 2rem calc((100vw - 900px) / 2);
+  }
+  @media screen and (max-width: 950px) {
+    padding: 2rem calc((100vw - 700px) / 2);
+  }
+  @media screen and (max-width: 768px) {
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  span {
+    font-weight: 700;
+    padding-right: 1vw;
+    color: #ef4b4d;
+  }
+  p {
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    @media screen and (max-width: 768px) {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.map {
+  height: 500px;
+  width: 100vw;
+  padding: 3rem calc((100vw - 1100px) / 2);
+  @media screen and (max-width: 1150px) {
+    padding: 3rem calc((100vw - 900px) / 2);
+  }
+  @media screen and (max-width: 950px) {
+    padding: 3rem calc((100vw - 700px) / 2);
+  }
+  @media screen and (max-width: 768px) {
+    padding: 2rem;
+  }
+  @media screen and (max-width: 600px) {
+    height: 420px;
+  }
+}

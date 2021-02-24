@@ -1,0 +1,78 @@
+.slick-container {
+  width: 90vw;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  @media screen and (max-width: 1024px) {
+    width: 80vw;
+  }
+  @media screen and (max-width: 768px) {
+    width: 70vw;
+  }
+  h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+}
+
+div.card {
+  background: white;
+  border: 1px solid #e2e0e0;
+  margin: 0 1vw;
+  border-radius: 5px;
+  height: 340px;
+  a {
+    text-decoration: none;
+  }
+
+  .card-text {
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.9rem;
+    line-height: 1.3rem;
+    font-size: 0.85rem;
+    padding: 0 0.8rem;
+    color: #5d5a58;
+  }
+  @media screen and (max-width: 420px) {
+    height: 100%;
+  }
+}
+
+.card-title {
+  font-size: 1.1rem;
+  padding-left: 0.8rem;
+  margin-bottom: 0;
+  color: rgb(53, 54, 54);
+}
+
+.rating {
+  color: #ef4b4d;
+  font-size: 0.8rem;
+  .seperate-line {
+    color: rgb(107, 106, 106);
+    padding: 0 0.2rem;
+    font-size: 0.9rem;
+  }
+  .shop-location {
+    color: rgb(61, 63, 63);
+  }
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 10px;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.slick-prev:before,
+.slick-next::before {
+  color: #393e46;
+  font-size: 20px;
+}

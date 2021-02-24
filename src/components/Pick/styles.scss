@@ -1,0 +1,66 @@
+.picker {
+  height: 23rem;
+  @media screen and(max-width:768px) {
+    height: 22rem;
+  }
+}
+
+.picker-title {
+  width: 100%;
+  text-align: center;
+  margin: 1.5rem 0 0 0;
+  color: #204051;
+  .title {
+    font-size: 2.1rem;
+  }
+  p {
+    color: #244455;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+}
+
+.picker-pic {
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  position: relative;
+  svg {
+    color: #30475e;
+  }
+  span {
+    font-size: 3rem;
+    margin: 0 6vw;
+    color: #685841;
+    font-weight: 300;
+    @media screen and(max-width:768px) {
+      margin: 0 1rem;
+      font-size: 1.8rem;
+    }
+  }
+  @media screen and(max-width:768px) {
+    font-size: 15vw;
+    margin-top: 1rem;
+  }
+}
+
+.picker-button {
+  text-align: center;
+  margin-top: 2rem;
+  button {
+    border: 1px solid #d63447;
+    padding: 7px 20px;
+    width: 14rem;
+    border-radius: 15px;
+    color: #d63447;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    &:hover {
+      color: white;
+      transition: background-color 0.3s ease-in, color 0.3s ease-in;
+      background: #d63447;
+    }
+    @media screen and(max-width:768px) {
+      width: 12rem;
+    }
+  }
+}

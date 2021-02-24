@@ -1,0 +1,107 @@
+.restaurants {
+  height: 100%;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background-color: rgba(232, 232, 233, 0.664);
+}
+
+.hero {
+  background-position: center;
+  height: 44vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  min-height: 150px;
+  .hero-dark {
+    width: 100%;
+    height: 44vh;
+    background: rgba(0, 0, 0, 0.062);
+    z-index: 3;
+  }
+
+  .hero-title {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 800;
+    width: 100%;
+    color: white;
+    height: auto;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    position: absolute;
+    text-shadow: rgba(255, 255, 255, 0.2) 3px 2px 3px;
+  }
+}
+
+.header {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.line {
+  padding: 0.5rem calc((100vw - 900px) / 2);
+  width: 100vw;
+  @media screen and (max-width: 996px) {
+    padding: 0.5rem calc((100vw - 700px) / 2);
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0.5rem calc((100vw - 430px) / 2);
+  }
+
+  .card {
+    margin: 8px;
+    height: 320px;
+    a {
+      text-decoration: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+    .card-body {
+      padding: 0.8rem;
+      .card-title {
+        font-size: 1rem;
+        padding: 0;
+        justify-content: space-between;
+        display: flex;
+      }
+      .card-text {
+        font-size: 0.85rem;
+        padding: 0;
+      }
+    }
+  }
+}
+
+div .col-lg-4 {
+  padding: 0;
+}
+
+.card-img-top {
+  height: 12rem;
+}
+
+.load-more {
+  width: 100%;
+  text-align: center;
+  margin: 0.8rem 0 0 0;
+  button {
+    border: 1px solid #d63447;
+    font-weight: 500;
+    padding: 7px 20px;
+    width: 12rem;
+    border-radius: 18px;
+    color: #d63447;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    &:hover {
+      color: white;
+      transition: background-color 0.3s ease-in, color 0.3s ease-in;
+      background: #d63447;
+    }
+    @media screen and(max-width:768px) {
+      width: 10rem;
+    }
+  }
+}

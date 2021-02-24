@@ -1,0 +1,38 @@
+.footer-div {
+  height: 6rem;
+  width: 100%;
+  background-color: #dfd3c3;
+  position: relative;
+}
+
+.logos {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: -1rem;
+}
+
+.logos img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.footer-button {
+  position: absolute;
+  bottom: 0.7rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+button {
+  background: none;
+  border: none;
+  width: 6rem;
+}
+
+.two {
+  border-left: 0.1rem solid black;
+  border-right: 0.1rem solid black;
+}
+/*# sourceMappingURL=styles.css.map */

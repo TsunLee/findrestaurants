@@ -1,0 +1,79 @@
+.location {
+  padding: 0.5rem calc((100vw - 900px) / 2);
+}
+
+@media screen and (max-width: 768px) {
+  .location {
+    padding: 1rem;
+  }
+}
+
+.location h1 {
+  text-align: center;
+}
+
+.location h6 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.shop-container {
+  background: #9b9a9a28;
+  padding-bottom: 2rem;
+}
+
+.row-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.line.row {
+  margin-left: 0;
+}
+
+.location-div {
+  height: 10rem;
+  width: 100%;
+  padding-left: 0;
+}
+
+.location-div:hover {
+  cursor: pointer;
+}
+
+.location-div img {
+  position: relative;
+  height: 100%;
+  size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  border-radius: 4px;
+}
+
+.location-div img:hover {
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+}
+
+.location-div h1 {
+  position: absolute;
+  color: white;
+  font-size: 1.75rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+div .col-lg-3 {
+  padding: 7px;
+}
+/*# sourceMappingURL=styles.css.map */

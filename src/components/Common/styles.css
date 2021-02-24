@@ -1,0 +1,80 @@
+.ques-container {
+  padding: 2rem calc((100vw - 600px) / 2);
+}
+
+@media screen and (max-width: 680px) {
+  .ques-container {
+    padding: 1.5rem;
+  }
+}
+
+.ques-container h1,
+.ques-container p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ques-container .ques-button {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.ques-container .ques-button button {
+  border: 1px solid #d63447;
+  padding: 7px 20px;
+  width: 14rem;
+  border-radius: 15px;
+  color: #d63447;
+  -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.ques-container .ques-button button:hover {
+  color: white;
+  -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  background: #d63447;
+}
+
+@media screen and (max-width: 768px) {
+  .ques-container .ques-button button {
+    width: 12rem;
+  }
+}
+
+.accordion .card {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #eeeeee;
+  height: 100%;
+}
+
+.accordion .card .card-header {
+  color: #62959c;
+  background: none;
+  border-bottom: none;
+  padding: 1.3rem 0;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion .card .card-header .plus svg {
+  padding-bottom: 5px;
+}
+
+.accordion .card .card-body {
+  color: #e1bc91;
+  padding: 0 0 1rem 0;
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=styles.css.map */

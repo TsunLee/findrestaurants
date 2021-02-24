@@ -1,0 +1,61 @@
+.ques-container {
+  padding: 2rem calc((100vw - 600px) / 2);
+  @media screen and (max-width: 680px) {
+    padding: 1.5rem;
+  }
+  h1,
+  p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ques-button {
+    text-align: center;
+    margin-top: 3rem;
+    button {
+      border: 1px solid #d63447;
+      padding: 7px 20px;
+      width: 14rem;
+      border-radius: 15px;
+      color: #d63447;
+      transition: background-color 0.2s ease-out, color 0.2s ease-out;
+      &:hover {
+        color: white;
+        transition: background-color 0.3s ease-in, color 0.3s ease-in;
+        background: #d63447;
+      }
+      @media screen and(max-width:768px) {
+        width: 12rem;
+      }
+    }
+  }
+}
+
+.accordion {
+  .card {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #eeeeee;
+    height: 100%;
+    .card-header {
+      color: #62959c;
+      background: none;
+      border-bottom: none;
+      padding: 1.3rem 0;
+      font-size: 1rem;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      .plus {
+        svg {
+          padding-bottom: 5px;
+        }
+      }
+    }
+    .card-body {
+      color: #e1bc91;
+      padding: 0 0 1rem 0;
+      font-size: 0.9rem;
+    }
+  }
+}

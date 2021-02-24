@@ -1,0 +1,16 @@
+.dropdown {
+  -webkit-transform: translate(0%, -40%);
+          transform: translate(0%, -40%);
+  position: absolute;
+}
+
+.dropdown .btn-secondary {
+  background: none;
+  border: none;
+  width: 160px;
+}
+
+.dropdown a.dropdown-item {
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
