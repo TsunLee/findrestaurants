@@ -4,8 +4,10 @@ import { GiPositionMarker } from "react-icons/gi";
 import "./styles.css";
 
 const Maps = ({ data }) => {
+  //地圖左上資訊樣式
   const [markerStyle, setMarkerStyle] = useState(false);
 
+  //地圖設定
   const defaultProps = {
     center: {
       lat: data.lat,
@@ -17,8 +19,8 @@ const Maps = ({ data }) => {
   const changeStyles = () => {
     setMarkerStyle(!markerStyle);
   };
+
   return (
-    // Important! Always set the container height explicitly
     <div style={{ height: "100%", width: "100%" }}>
       <div
         onClick={changeStyles}

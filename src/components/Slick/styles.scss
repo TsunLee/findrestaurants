@@ -21,6 +21,7 @@ div.card {
   margin: 0 1vw;
   border-radius: 5px;
   height: 340px;
+
   a {
     text-decoration: none;
   }
@@ -35,9 +36,6 @@ div.card {
     font-size: 0.85rem;
     padding: 0 0.8rem;
     color: #5d5a58;
-  }
-  @media screen and (max-width: 420px) {
-    height: 100%;
   }
 }
 

@@ -5,6 +5,7 @@ import ShopData from "../Data/ShopData";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
 import "./styles.css";
 
+//找出符合地區的資料
 const Restaurant = (props) => {
   const filterData = ShopData.filter(function (item, index, array) {
     if (item.location === props.location.state.dist) {
@@ -12,7 +13,10 @@ const Restaurant = (props) => {
     }
   });
 
+  //初始可見數量
   const [visible, setVisible] = useState(6);
+
+  //點擊增加的可見數量
   const showMore = () => {
     setVisible((prevValue) => prevValue + 6);
   };

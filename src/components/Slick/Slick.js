@@ -6,6 +6,7 @@ import "./styles.css";
 
 export default class MultipleItems extends Component {
   render() {
+    //responsive設定
     const settings = {
       dots: true,
       infinite: true,
@@ -34,6 +35,7 @@ export default class MultipleItems extends Component {
       ],
     };
 
+    //設定隨機6個餐廳顯示
     const number = getRandom(1, 300);
     const shop = ShopData.slice(number, number + 6);
     function getRandom(min, max) {
